@@ -12,8 +12,13 @@ public class Greeter {
 
   }
 
-  //TODO: Add javadoc comment
+  /**
+   * Greets someone with a good morning message.
+   *
+   * @param someone the person to greet
+   * @return a good morning greeting
+   */
   public String greet(String someone) {
-    return String.format("Hello, %s!", someone);
+    return String.format("Good morning, %s!", someone);
   }
 }
